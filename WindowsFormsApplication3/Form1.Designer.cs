@@ -58,18 +58,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -90,7 +90,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel5.BackColor = System.Drawing.Color.FloralWhite;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label19);
             this.panel5.Controls.Add(this.label18);
@@ -143,17 +143,18 @@
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.FloralWhite;
             this.button6.Location = new System.Drawing.Point(476, 731);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(97, 23);
             this.button6.TabIndex = 13;
             this.button6.Text = "Новая бронь";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel6.BackColor = System.Drawing.Color.Wheat;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.panel3);
             this.panel6.Controls.Add(this.panel2);
@@ -171,7 +172,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel3.BackColor = System.Drawing.Color.BurlyWood;
             this.panel3.Controls.Add(this.pictureBox6);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(368, 213);
@@ -200,7 +201,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.BackColor = System.Drawing.Color.BurlyWood;
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(191, 213);
@@ -229,7 +230,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.BackColor = System.Drawing.Color.BurlyWood;
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(11, 213);
@@ -259,7 +260,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel9.BackColor = System.Drawing.Color.BurlyWood;
             this.panel9.Controls.Add(this.pictureBox2);
             this.panel9.Controls.Add(this.label24);
             this.panel9.Location = new System.Drawing.Point(368, 35);
@@ -289,7 +290,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel8.BackColor = System.Drawing.Color.BurlyWood;
             this.panel8.Controls.Add(this.pictureBox1);
             this.panel8.Controls.Add(this.label23);
             this.panel8.Location = new System.Drawing.Point(191, 35);
@@ -319,7 +320,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel7.BackColor = System.Drawing.Color.BurlyWood;
             this.panel7.Controls.Add(this.pictureBox3);
             this.panel7.Controls.Add(this.label22);
             this.panel7.Location = new System.Drawing.Point(11, 35);
@@ -368,12 +369,13 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FloralWhite;
             this.button2.Location = new System.Drawing.Point(351, 731);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 24);
             this.button2.TabIndex = 32;
             this.button2.Text = "Назад";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
@@ -387,7 +389,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel4.BackColor = System.Drawing.Color.Wheat;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.textBox2);
@@ -407,74 +409,49 @@
             this.panel4.TabIndex = 14;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint_1);
             // 
-            // label8
+            // button1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(197, 12);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(132, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Отзывы на наши квесты";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.button1.BackColor = System.Drawing.Color.FloralWhite;
+            this.button1.Location = new System.Drawing.Point(354, 111);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(174, 24);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Отправить отзыв";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // textBox1
+            // textBox2
             // 
-            this.textBox1.Location = new System.Drawing.Point(71, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 20);
-            this.textBox1.TabIndex = 11;
+            this.textBox2.BackColor = System.Drawing.Color.FloralWhite;
+            this.textBox2.Location = new System.Drawing.Point(302, 55);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox2.Size = new System.Drawing.Size(209, 20);
+            this.textBox2.TabIndex = 38;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label5
+            // label9
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 39);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Ваше имя:";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(299, 39);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(80, 13);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "Текст отзыва:";
             // 
-            // label6
+            // label14
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(31, 62);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Дата:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(73, 62);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 16;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 94);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Название квеста:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Пила",
-            "Пять ночей с Фредди",
-            "Раз, два, три, УМРИ",
-            "Палач",
-            "Не дыши",
-            "Оно"});
-            this.comboBox1.Location = new System.Drawing.Point(112, 88);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 21);
-            this.comboBox1.TabIndex = 34;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(20, 117);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(86, 13);
+            this.label14.TabIndex = 36;
+            this.label14.Text = "Оценка квеста:";
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.BackColor = System.Drawing.Color.FloralWhite;
             this.numericUpDown1.Location = new System.Drawing.Point(111, 115);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10,
@@ -490,48 +467,80 @@
             0,
             0});
             // 
-            // label14
+            // comboBox1
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(20, 117);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(86, 13);
-            this.label14.TabIndex = 36;
-            this.label14.Text = "Оценка квеста:";
+            this.comboBox1.BackColor = System.Drawing.Color.FloralWhite;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Пила",
+            "Пять ночей с Фредди",
+            "Раз, два, три, УМРИ",
+            "Палач",
+            "Не дыши",
+            "Оно"});
+            this.comboBox1.Location = new System.Drawing.Point(112, 88);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(144, 21);
+            this.comboBox1.TabIndex = 34;
             // 
-            // label9
+            // label7
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(299, 39);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 13);
-            this.label9.TabIndex = 37;
-            this.label9.Text = "Текст отзыва:";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 94);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(98, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Название квеста:";
             // 
-            // textBox2
+            // dateTimePicker1
             // 
-            this.textBox2.Location = new System.Drawing.Point(302, 55);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(209, 20);
-            this.textBox2.TabIndex = 38;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FloralWhite;
+            this.dateTimePicker1.Location = new System.Drawing.Point(73, 62);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 16;
             // 
-            // button1
+            // label6
             // 
-            this.button1.Location = new System.Drawing.Point(354, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 24);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Отправить отзыв";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(31, 62);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(36, 13);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Дата:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Ваше имя:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FloralWhite;
+            this.textBox1.Location = new System.Drawing.Point(71, 36);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(202, 20);
+            this.textBox1.TabIndex = 11;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(197, 12);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(132, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Отзывы на наши квесты";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(599, 787);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label2);

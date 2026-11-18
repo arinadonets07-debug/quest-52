@@ -70,6 +70,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FloralWhite;
             this.dateTimePicker1.Location = new System.Drawing.Point(75, 54);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
@@ -104,6 +105,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox2.Location = new System.Drawing.Point(119, 202);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(168, 20);
@@ -121,6 +123,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox3.Location = new System.Drawing.Point(126, 240);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(156, 20);
@@ -138,6 +141,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox4.Location = new System.Drawing.Point(138, 273);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(147, 20);
@@ -166,16 +170,18 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FloralWhite;
             this.button1.Location = new System.Drawing.Point(331, 365);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 24);
             this.button1.TabIndex = 22;
             this.button1.Text = "Забронировать";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.BackColor = System.Drawing.Color.FloralWhite;
             this.numericUpDown1.Location = new System.Drawing.Point(160, 170);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             25,
@@ -193,12 +199,13 @@
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.FloralWhite;
             this.button9.Location = new System.Drawing.Point(210, 365);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(115, 24);
             this.button9.TabIndex = 31;
             this.button9.Text = "Назад";
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label1
@@ -212,6 +219,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.Color.FloralWhite;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Пила",
@@ -228,6 +236,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.Color.FloralWhite;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "12:00",
@@ -245,6 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(458, 412);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
