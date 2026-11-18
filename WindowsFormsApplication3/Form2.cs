@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,36 +29,7 @@ namespace WindowsFormsApplication3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string date = dateTimePicker1.Value.ToShortDateString();
-            string questName = comboBox1.Text;
-            string timeSlot = comboBox2.Text;
-            int peopleCount = Convert.ToInt32(numericUpDown1.Value);
-            string clientName = textBox2.Text;
-            string phone = textBox3.Text;
-            string email = textBox4.Text;
-
-            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Арина\Documents\Мои документы\Access\Администраторы.accdb";
-
-            using (OleDbConnection dbConnection = new OleDbConnection(connectionString))
-            {
-                dbConnection.Open();
-                // ВАЖНО: Проверьте, чтобы названия столбцов в квадратных скобках точно совпадали с вашей таблицей в Access
-                string query = "INSERT INTO [Бронирование квеста] ([Дата], [Название квеста], [Свободные слоты], [Количество участников], [Имя заказчика], [Номер телефона], [Электронная почта]) VALUES (@date, @quest, @slot, @count, @name, @phone, @email)";
-
-                OleDbCommand dbCommand = new OleDbCommand(query, dbConnection);
-                dbCommand.Parameters.AddWithValue("@date", date);
-                dbCommand.Parameters.AddWithValue("@quest", questName);
-                dbCommand.Parameters.AddWithValue("@slot", timeSlot);
-                dbCommand.Parameters.AddWithValue("@count", peopleCount);
-                dbCommand.Parameters.AddWithValue("@name", clientName);
-                dbCommand.Parameters.AddWithValue("@phone", phone);
-                dbCommand.Parameters.AddWithValue("@email", email);
-
-                if (dbCommand.ExecuteNonQuery() == 1)
-                    MessageBox.Show("Вы успешно забронировали квест!");
-                else
-                    MessageBox.Show("Ошибка при бронировании", "Внимание!");
-            }
+       
         }
 
 
@@ -97,6 +66,11 @@ namespace WindowsFormsApplication3
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

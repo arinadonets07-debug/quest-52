@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace WindowsFormsApplication3
 {
@@ -212,35 +211,15 @@ namespace WindowsFormsApplication3
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string name = textBox1.Text;
-            string date = dateTimePicker1.Value.ToShortDateString();
-            string quest = comboBox1.Text;
-            int rating = Convert.ToInt32(numericUpDown1.Value);
-            string reviewText = textBox2.Text;
-
-            string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Арина\Documents\Мои документы\Access\Администраторы.accdb";
-
-            using (OleDbConnection dbConnection = new OleDbConnection(connectionString))
-            {
-                dbConnection.Open();
-                // ВАЖНО: Проверьте названия столбцов в вашей таблице "Отзывы"
-                string query = "INSERT INTO [Отзывы] ([Ваше имя], [Дата], [Название квеста], [Оценка квеста], [Текст отзыва]) VALUES (@name, @date, @quest, @rating, @text)";
-
-                OleDbCommand dbCommand = new OleDbCommand(query, dbConnection);
-                dbCommand.Parameters.AddWithValue("@name", name);
-                dbCommand.Parameters.AddWithValue("@date", date);
-                dbCommand.Parameters.AddWithValue("@quest", quest);
-                dbCommand.Parameters.AddWithValue("@rating", rating);
-                dbCommand.Parameters.AddWithValue("@text", reviewText);
-
-                if (dbCommand.ExecuteNonQuery() == 1)
-                    MessageBox.Show("Спасибо, что оставили отзыв!");
-                else
-                    MessageBox.Show("Ошибка при отправке отзыва", "Внимание!");
-            }
+        
         }
 
         private void panel4_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
         }
